@@ -1,0 +1,15 @@
+import type { MetadataRoute } from "next";
+import { siteConfig, navLinks } from "@/lib/site";
+
+export const dynamic = "force-static";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = siteConfig.url.replace(/\/$/, "");
+
+  return navLinks.map((link) => ({
+    url: `${baseUrl}${link.href === "/" ? "/" : `${link.href}/`}`,
+    lastModified: new Date(),
+    changeFrequency: link.href === "/" ? "weekly" : "monthly",
+    priority: link.href === "/" ? 1 : 0.8,
+  }));
+}

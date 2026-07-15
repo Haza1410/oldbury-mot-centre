@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  /* Clean monochrome black & white palette */
+  --background: #ffffff;      /* white */
+  --foreground: #141414;      /* near-black text & dark sections */
+  --muted: #565656;           /* mid grey for secondary text */
+  --border: #e4e4e4;          /* light grey border */
+  --surface: #f5f5f5;         /* off-white surface */
+  --surface-2: #ebebeb;       /* slightly deeper grey */
+  --accent: #141414;          /* black — links, buttons, icons on light */
+  --accent-soft: #ececec;     /* pale grey chip/icon background */
+  --brand: #ffffff;           /* white highlight on dark sections */
+  --wood: #141414;            /* neutralised (legacy token) */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-brand: var(--brand);
+  --color-wood: var(--wood);
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-cormorant);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+a,
+button {
+  transition-property: color, background-color, border-color, box-shadow, transform, opacity;
+  transition-duration: 200ms;
+}
+
+/* Subtle neutral dot texture for feature sections — kept very faint */
+.texture-warm {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(20, 20, 20, 0.05) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+/* Thin rule used to break up sections */
+.rule-accent {
+  height: 2px;
+  width: 3rem;
+  background: var(--accent);
+  border-radius: 2px;
+}
