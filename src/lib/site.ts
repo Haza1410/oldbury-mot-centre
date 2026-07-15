@@ -190,49 +190,63 @@ export const motClasses = [
   },
 ];
 
-// TODO: placeholder reviews — replace with genuine customer reviews before go-live.
+// Genuine 5-star Google reviews.
 export const testimonials = [
   {
-    name: "Dave P.",
-    location: "Oldbury",
+    name: "Gagandeep Sandhu",
+    location: "Google review",
     rating: 5,
     quote:
-      "Took my BMW in for its MOT and a service. Honest, friendly and quick — they explained everything and didn't try to sell me work I didn't need. Highly recommend.",
+      "Had my MOT done at Oldbury MOT Centre and the service was excellent. Steve was great to deal with — knowledgeable, efficient, and professional throughout. Everything was handled smoothly and to a high standard. Would definitely recommend.",
   },
   {
-    name: "Sarah H.",
-    location: "Smethwick",
+    name: "Harbind Sandhu",
+    location: "Google review",
     rating: 5,
     quote:
-      "Failed my MOT elsewhere and got quoted a fortune. These guys sorted the brakes and exhaust for a fair price and had me passed the same week. Genuinely trustworthy.",
+      "Excellent garage, great service. The main chap Steve is a top bloke. Knows what he's talking about and has many years of experience in German cars. Has helped me with all of the cars in my family and always looked after me.",
   },
   {
-    name: "Marek K.",
-    location: "West Bromwich",
+    name: "Dan Ray",
+    location: "Google review",
     rating: 5,
     quote:
-      "Great with German cars — knew exactly what my Audi needed. Clutch replaced and running like new. Won't take my car anywhere else now.",
+      "Highly recommended. Booked in for a full service. No issues and kept me updated on the progress to ensure I had my car back in time.",
   },
   {
-    name: "Lisa T.",
-    location: "Tipton",
+    name: "Ayaz Ayoob",
+    location: "Google review",
     rating: 5,
     quote:
-      "Booked my motorhome in for its MOT and they were brilliant with the bigger vehicle. Clear communication and no fuss. Thank you!",
+      "Highly recommended. Been here for my MOT. Mr Bharje welcomed me with full politeness and explained everything in detail. Such wonderful customer service — they really know what they're doing. Really impressive and recommendable.",
   },
   {
-    name: "Jason R.",
-    location: "Rowley Regis",
+    name: "Luke Hensey",
+    location: "Google review",
     rating: 5,
     quote:
-      "Had some accident damage and welding done. The car came back straight and looking spot on. Proper local garage that actually cares about the work.",
+      "Great service, sorted my MOT and all the work needed same day for a good price.",
   },
   {
-    name: "Amandeep S.",
-    location: "Halesowen",
+    name: "Kathleen Lloyd",
+    location: "Google review",
     rating: 5,
     quote:
-      "Wheel alignment and a full service — in and out with no drama and a fair bill. Friendly team who clearly know what they're doing.",
+      "Garage replaced a refurbished engine timing belt, serviced and MOT'd — runs better than when first purchased. Highly recommended. Keeps you well informed if other work needs attention in future. Well done to all involved.",
+  },
+  {
+    name: "Craig Freeman",
+    location: "Google review",
+    rating: 5,
+    quote:
+      "Been using Oldbury MOT for the last 10 years, never had a problem. The gaffer goes above and beyond. Family and nan use them too. Thank you.",
+  },
+  {
+    name: "Rachel Rowley",
+    location: "Google review",
+    rating: 5,
+    quote:
+      "Yet again, brilliant service here. Very careful, very thorough and very reasonably priced — would highly recommend!",
   },
 ];
 

@@ -1,4 +1,4 @@
-import { Star, MapPin, Quote } from "lucide-react";
+import { Star, BadgeCheck, Quote } from "lucide-react";
 
 interface Testimonial {
   name: string;
@@ -32,7 +32,7 @@ export function TestimonialCard({ testimonial }: TestimonialCardProps) {
         <cite className="not-italic">
           <span className="block text-sm font-medium text-foreground">{testimonial.name}</span>
           <span className="flex items-center gap-1 text-xs text-muted">
-            <MapPin className="h-3 w-3" />
+            <BadgeCheck className="h-3 w-3" />
             {testimonial.location}
           </span>
         </cite>
