@@ -53,7 +53,6 @@ export const navLinks = [
   { label: "MOT Testing", href: "/mot-testing" },
   { label: "Servicing & Repairs", href: "/servicing" },
   { label: "Accident Repairs", href: "/accident-repairs" },
-  { label: "Gallery", href: "/gallery" },
   { label: "Reviews", href: "/testimonials" },
   { label: "FAQs", href: "/faq" },
   { label: "Contact", href: "/contact" },
@@ -293,49 +292,6 @@ export const faqs = [
   },
 ];
 
-export const galleryImages = [
-  {
-    src: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?w=800&q=80",
-    alt: "Technician carrying out an inspection under a vehicle",
-    category: "MOT",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&q=80",
-    alt: "Engine bay open during a vehicle service",
-    category: "Servicing",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?w=800&q=80",
-    alt: "Running diagnostics on a car in the workshop",
-    category: "Diagnostics",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&q=80",
-    alt: "Car booked in for its MOT test",
-    category: "MOT",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80",
-    alt: "Vehicle in for repair and bodywork",
-    category: "Repairs",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1533106418989-88406c7cc8ca?w=800&q=80",
-    alt: "Serviced car ready to collect",
-    category: "Servicing",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&q=80",
-    alt: "Larger vehicle in for a Class 5 MOT",
-    category: "MOT",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",
-    alt: "German car in for specialist servicing",
-    category: "Repairs",
-  },
-];
-
 export const pageMetadata = {
   home: {
     title: "Oldbury MOT Centre | MOT Testing, Servicing & Repairs in Oldbury",
@@ -361,11 +317,6 @@ export const pageMetadata = {
     title: "Accident Repairs & Bodywork | Welding & Tracking | Oldbury MOT Centre",
     description:
       "Accident repairs, welding and wheel tracking & alignment in Oldbury. We get your vehicle straight, safe and back on the road.",
-  },
-  gallery: {
-    title: "Gallery | Oldbury MOT Centre",
-    description:
-      "A look inside Oldbury MOT Centre — MOT testing, servicing, diagnostics and repairs at our Popes Lane garage.",
   },
   testimonials: {
     title: "Reviews | Oldbury MOT Centre",

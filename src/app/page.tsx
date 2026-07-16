@@ -46,16 +46,11 @@ export default function HomePage() {
 
       <section className="py-16 lg:py-20">
         <div className="mx-auto w-full max-w-screen-2xl px-4 lg:px-5">
-          <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
-            <SectionHeading
-              eyebrow="What we do"
-              title="A full garage under one roof"
-              description="From MOTs to mechanical repairs and accident work, we look after your vehicle from start to finish — all from our Oldbury garage."
-            />
-            <Button href="/gallery" variant="outline">
-              See the gallery
-            </Button>
-          </div>
+          <SectionHeading
+            eyebrow="What we do"
+            title="A full garage under one roof"
+            description="From MOTs to mechanical repairs and accident work, we look after your vehicle from start to finish — all from our Oldbury garage."
+          />
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {categories.map((category) => (
               <CategoryCard key={category.href} {...category} />
